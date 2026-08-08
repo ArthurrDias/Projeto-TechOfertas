@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(180deg, #444, #222) !important;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #111 !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00FF88 !important;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item {
+    transition: 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: #00ff88;
+    color: black;
+}
+
+#logo {
+    height: 45px;
+    object-fit: contain;
+}
+
+/* Inicio */
+.inicio {
+    padding: 60px 20px;
+    color: white;
+    background-color: #444;
+
+}
+
+.inicio-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.inicio-texto {
+    max-width: 600px;
+    text-align: justify;
+}
+
+.inicio-logo img {
+    width: 350px;
+    max-width: 100%;
+}
+
+/* Cards */
+h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-img-top {
+    margin: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.preco {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00FF88;
+    margin-bottom: 10px;
+}
+
+.btn-comprar {
+    background-color: #00FF88;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-comprar:hover {
+    background-color: #00cc6a;
+}
+
+/* Contatos */
+#contatos {
+    background-color: #111;
+    color: white;
+    padding: 60px 0;
+    margin-top: 60px;
+}
+
+#contatos .container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+#contatos h2 {
+    color: #00FF88;
+    margin-bottom: 40px;
+}
+
+.contatos-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contato-item {
+    max-width: 250px;
+}
+
+.contato-item h5 {
+    color: #00FF88;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #aaa;
+}

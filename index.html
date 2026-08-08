@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício - Bootstrap</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img id=logo src="img/Logo tecnológico de TechOfertas.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Catálogo
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#produtos">Produtos</a></li>
+              <li><a class="dropdown-item" href="#ofertas">Ofertas Especiais</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contatos">Contatos</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="inicio">
+    <div class="inicio-conteudo">
+      <div class="inicio-texto">
+        <h1>TechOfertas</h1>
+        <p>
+          Somos a TechOfertas, um e-commerce especializado em hardwares de computador.
+          Nosso foco é oferecer componentes de alta qualidade, visando o melhor desempenho possível para o seu
+          computador.
+          Trabalhamos com marcas reconhecidas no mercado e buscamos sempre trazer as melhores opções em placas de vídeo,
+          processadores, memórias, SSDs e outros componentes essenciais para montar ou atualizar seu PC.
+          Nosso objetivo é proporcionar uma experiência de compra confiável, com produtos de qualidade, bons preços e
+          atendimento dedicado aos apaixonados por tecnologia e performance.
+        </p>
+        <a href="#contatos" class="btn btn-info">Saiba mais</a>
+      </div>
+      <div class="inicio-logo">
+        <img src="img/Logo tecnológico de TechOfertas.png" alt="Logo TechOfertas">
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2 id="produtos">Produtos</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/fans.jpg" class="card-img-top mx-auto d-block" alt="...">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title">Fans Lian Li</h5>
+            <p class="preco">R$ 899,00</p>
+            <p class="card-text">Kit de fans Lian Li com alto fluxo de ar e iluminação RGB. Ideal para melhorar a
+              refrigeração do gabinete mantendo baixo nível de ruído e visual moderno.</p>
+            <button type="button" class="btn btn-comprar mt-auto">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/fonte.jpg" class="card-img-top mx-auto d-block" alt="...">
+          <div class="card-body text-center d-flex flex-column ">
+            <h5 class="card-title">Fonte MSI MEG AI1300P </h5>
+            <p class="preco">R$ 1.899,00</p>
+            <p class="card-text">Fonte MSI MEG AI1300P com potência de 1300W e certificação 80 Plus Platinum. Oferece
+              alta eficiência energética, estabilidade e suporte para PCs de alto desempenho.</p>
+            <button type="button" class="btn btn-comprar mt-auto">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/memoria ram.jpg" class="card-img-top mx-auto d-block" alt="...">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title">Memória RAM 32GB (2 x 16 GB) G.SKILL Trident Z5 Royal Series</h5>
+            <p class="preco">R$ 3.499,00</p>
+            <p class="card-text">Memória RAM DDR5 de 32GB (2x16GB) G.SKILL Trident Z5 Royal. Alto desempenho para jogos
+              e aplicações pesadas, com design premium e dissipador de calor eficiente.</p>
+            <button type="button" class="btn btn-comprar mt-auto">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/ssd.jpeg" class="card-img-top mx-auto d-block" alt="...">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title">SSD Samsung 990 PRO 2TB</h5>
+            <p class="preco">R$ 2.299,00</p>
+            <p class="card-text">SSD NVMe Samsung 990 PRO de 2TB com velocidades extremamente rápidas de leitura e
+              gravação. Ideal para games, edição e sistemas que exigem máximo desempenho.</p>
+            <button type="button" class="btn btn-comprar mt-auto">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/watercooler.jpeg" class="card-img-top mx-auto d-block" alt="...">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title">WaterCooler LIAN LI HYDROSHIFT II</h5>
+            <p class="preco">R$ 1.899,00</p>
+            <p class="card-text">Water cooler Lian Li HydroShift II com excelente capacidade de refrigeração para
+              processadores de alto desempenho, mantendo temperaturas baixas e operação silenciosa.</p>
+            <button type="button" class="btn btn-comprar mt-auto">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/gabinete.jpg" class="card-img-top mx-auto d-block" alt="...">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title">Gabinete Lian Li Aquario Dynamic</h5>
+            <p class="preco">R$ 1.790,00</p>
+            <p class="card-text">Gabinete Lian Li com design moderno em vidro temperado, excelente fluxo de ar e amplo
+              espaço para montagem de PCs gamers ou setups de alto desempenho.</p>
+            <button type="button" class="btn btn-comprar mt-auto">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2 id="ofertas">Ofertas Especiais</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/rtx5090.png" class="card-img-top mx-auto d-block" alt="...">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title">Placa de Vídeo Nvidea RTX5090</h5>
+            <p class="preco">R$ 15.689,00</p>
+            <p class="card-text">Placa de vídeo NVIDIA RTX 5090 com arquitetura de última geração, oferecendo desempenho
+              extremo para jogos em 4K, ray tracing e criação de conteúdo.</p>
+            <button type="button" class="btn btn-comprar mt-auto">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/Ryzen 7 7800X3D.jpg" class="card-img-top mx-auto d-block" alt="Placa de vídeo">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title">Processador AMD Ryzen 7 7800X3D</h5>
+            <p class="preco">R$ 6.490,00</p>
+            <p class="card-text">Processador AMD Ryzen 7 7800X3D com tecnologia 3D V-Cache, ideal para jogos de alto
+              desempenho e multitarefas avançadas.</p>
+            <button type="button" class="btn btn-comprar mt-auto">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/placa mae.png" class="card-img-top mx-auto d-block" alt="...">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title">Placa Mãe Asus ROG Strix B850-F Gaming WIFI AMD AM5</h5>
+            <p class="preco">R$ 2.699,00</p>
+            <p class="card-text">Placa-mãe ASUS ROG Strix B850-F para processadores AMD AM5, com suporte a DDR5, Wi-Fi
+              integrado e recursos avançados para gamers e entusiastas.</p>
+            <button type="button" class="btn btn-comprar mt-auto">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contatos">
+    <div class="container">
+      <h2>Contatos</h2>
+      <div class="contatos-info">
+        <div class="contato-item">
+          <h5>📞 Telefone</h5>
+          <p>+55 51 91234-4321</p>
+        </div>
+        <div class="contato-item">
+          <h5>📧 E-mail</h5>
+          <p>techofertas@gmail.com</p>
+        </div>
+        <div class="contato-item">
+          <h5>📍 Endereço</h5>
+          <p>Av. Flores da Cunha, 903<br>Centro - Cachoeirinha - RS</p>
+        </div>
+      </div>
+    </div>
+  </div>  
+</body>
+
+</html>
