@@ -1,36 +1,44 @@
 TechOfertas
 
-E-commerce de produtos de hardware desenvolvido como projeto acadêmico na área de Desenvolvimento Web.
+Projeto de desenvolvimento web de uma loja virtual de produtos de hardware, desenvolvido como atividade acadêmica da disciplina de Desenvolvimento Web.
 
 📌 Sobre o projeto
 
-O TechOfertas é um projeto de desenvolvimento web voltado à apresentação de produtos de hardware, desenvolvido com o objetivo de aplicar na prática conceitos de estruturação, estilização e organização de páginas web.
+O TechOfertas é uma página web voltada à apresentação e comercialização de produtos de hardware, como placas de vídeo, processadores, memórias RAM, SSDs, placas-mãe, gabinetes, fontes, fans e water coolers.
 
-O projeto foi desenvolvido como atividade acadêmica, permitindo colocar em prática os conhecimentos adquiridos durante a disciplina de Desenvolvimento Web.
+O projeto foi desenvolvido com foco na aplicação prática de conceitos de desenvolvimento web e na criação de uma interface organizada para apresentação dos produtos.
 
 🛠️ Tecnologias utilizadas
 HTML5
 CSS3
-Bootstrap
-Sass
+Bootstrap 5
+
+📦 Produtos apresentados
+
+Entre os produtos presentes no projeto estão:
+
+Placas de vídeo
+Processadores
+Memórias RAM
+SSDs
+Placas-mãe
+Gabinetes
+Fontes de alimentação
+Fans
+Water coolers
 🎯 Objetivos
-Aplicar conceitos de desenvolvimento web;
-Praticar a criação e organização de páginas utilizando HTML e CSS;
-Utilizar o Bootstrap para estruturação e responsividade;
-Utilizar Sass para organização e manutenção dos estilos;
-Desenvolver uma interface voltada para um e-commerce de produtos de hardware.
-📂 Estrutura do projeto
+Praticar conceitos de desenvolvimento web;
+Criar uma interface para uma loja virtual;
+Utilizar HTML para estruturação das páginas;
+Utilizar CSS para estilização e personalização da interface;
+Aplicar componentes e recursos do Bootstrap;
+Organizar e apresentar produtos de hardware de forma visual e estruturada.
+🎓 Contexto acadêmico
 
-A estrutura do projeto está organizada de acordo com os arquivos e recursos utilizados no desenvolvimento da aplicação.
-
-📚 Contexto acadêmico
-
-Projeto desenvolvido como atividade prática da disciplina de Desenvolvimento Web da graduação em Ciência da Computação.
+Projeto desenvolvido como atividade prática da disciplina de Desenvolvimento Web, durante a graduação em Ciência da Computação.
 
 👨‍💻 Autor
 
 Arthur Dias
-
-Estudante de Ciência da Computação – CESUCA
 
 Projeto desenvolvido para fins acadêmicos.
